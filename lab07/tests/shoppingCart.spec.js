@@ -17,6 +17,7 @@ describe('ShoppingCart', () => {
             var shoppingCart = new ShoppingCart();
 
             // Write your stub
+            shoppingCart.getDiscountRate = sinon.stub().returns(discountRate);
 
             // Act
             actual = shoppingCart.getDiscountPrice(totalPrice);
@@ -35,6 +36,7 @@ describe('ShoppingCart', () => {
             var shoppingCart = new ShoppingCart();
 
             // Write your stub
+            shoppingCart.checkDiscountExist = sinon.stub().returns(true);
 
             // Act
             actual = shoppingCart.getDiscountRate();
@@ -50,6 +52,7 @@ describe('ShoppingCart', () => {
             var shoppingCart = new ShoppingCart();
 
             // Write your stub
+            shoppingCart.checkDiscountExist = sinon.stub().returns(false);
 
             // Act
             actual = shoppingCart.getDiscountRate();

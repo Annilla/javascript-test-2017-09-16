@@ -10,7 +10,7 @@
         shoppingCart.getDiscountRate = sinon.stub().returns(discountRate);
         ```
 
-1. 練習驗證狀態改變
+2. 練習驗證狀態改變
 
     * 驗證 getDiscountRate 會根據 checkDiscountExist 的回傳值, 判斷是否須給折扣
 
