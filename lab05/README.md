@@ -11,7 +11,7 @@
     });
     ```
 
-1. 嘗試使用 4 種 hook，並觀察執行的時機點
+2. 嘗試使用 4 種 hook，並觀察執行的時機點
     ``` js
     before(()=> console.log('before'));
     beforeEach(()=> console.log('beforeEach'));
@@ -19,9 +19,9 @@
     after(()=> console.log('after'));
     ```
 
-1. 練習使用 only 只執行某筆測試，以及使用 skip 跳過某筆測試
+3. 練習使用 only 只執行某筆測試，以及使用 skip 跳過某筆測試
 
-1. 練習使用 dataSet 改寫測試
+4. 練習使用 dataSet 改寫測試
 
     ``` js
     var dataSets = [
