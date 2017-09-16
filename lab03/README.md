@@ -19,7 +19,7 @@
     module.exports = Calculator;
     ```
 
-1. 打開 app.js ，引用 calculator.js 和 add 函式，並輸出成果看看是否計算正確
+2. 打開 app.js ，引用 calculator.js 和 add 函式，並輸出成果看看是否計算正確
 
     ```javascript
     var Calculator = require('./calculator.js');
@@ -30,7 +30,7 @@
     console.log(result); 
     ```
 
-1. 打開 Terminal ，輸入指令執行 app.js
+3. 打開 Terminal ，輸入指令執行 app.js
 
     ```
     node src/app.js
