@@ -8,13 +8,13 @@
     npm init
     ```
 
-1. 安裝程式所需要的套件
+2. 安裝程式所需要的套件
 
     ```
     npm install --save-dev mocha chai
     ```
 
-1. 打開 package.json，加入 test 的指令
+3. 打開 package.json，加入 test 的指令
 
     ``` json
     "scripts": {
@@ -22,7 +22,7 @@
     },
     ```
 
-1. 執行測試，觀察測試結果是否正確
+4. 執行測試，觀察測試結果是否正確
 
     ```
     npm test
@@ -31,4 +31,4 @@
 ## 進階練習
 
 1. 使用npm安裝自己常用的Library
-1. 將node_modules資料夾移除，重新使用npm install觀察是否有成功還原需要的檔案
+2. 將node_modules資料夾移除，重新使用npm install觀察是否有成功還原需要的檔案
