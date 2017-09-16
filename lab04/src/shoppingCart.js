@@ -3,7 +3,14 @@ function ShoppingCart() {
 
 // 撰寫邏輯
 ShoppingCart.prototype.Calculate = function (price) {
-    return 0
+    if (price < 500) {
+        return price;
+    }
+    else if (price >= 500) {
+        return price * 0.8;
+    }
+
+    return price;
 }
 
 module.exports = ShoppingCart;

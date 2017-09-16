@@ -4,7 +4,7 @@
 
 1. 撰寫一個購物車，超過 500 元打 8 折，沒有超過 500 元則原價計算
 
-1. 透過撰寫測試描述第一個目標，沒超過 500 時購物車會以原價計算
+2. 透過撰寫測試描述第一個目標，沒超過 500 時購物車會以原價計算
 
     ``` js
     describe('ShoppingCart', () => {
@@ -26,7 +26,7 @@
     });
     ```
 
-1. 實現邏輯
+3. 實現邏輯
 
     ``` js
     ShoppingCart.prototype.Calculate = function(price){
@@ -34,7 +34,7 @@
     }
     ```
 
-1. 透過撰寫測試描述第二個目標，超過 500 時購物車會打 8 折計算
+4. 透過撰寫測試描述第二個目標，超過 500 時購物車會打 8 折計算
 
     ``` js
     it('should get 80% discount if total price is greater than 500', () => {
@@ -52,7 +52,7 @@
     }); 
     ```
 
-1. 實現第二個邏輯
+5. 實現第二個邏輯
 
     ``` js
     ShoppingCart.prototype.Calculate = function (price) {
