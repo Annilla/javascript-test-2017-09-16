@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "name": "lab10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
