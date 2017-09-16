@@ -1,5 +1,11 @@
 # Lab - 撰寫第一個測試
 
+* 安裝 mocha
+
+```
+npm install -g mocha
+```
+
 ## 練習步驟
 
 1. 建立測試環境
@@ -8,7 +14,7 @@
     mocha init tests
     ```
 
-1. 打開 tests/tests.js，撰寫測試程式碼
+2. 打開 tests/tests.js，撰寫測試程式碼
 
     ``` javascript
     describe('Calculator', () => {
@@ -30,9 +36,9 @@
                 }
             });
         })
-    });Ï
+    })
     ```
 
-1. 在 tests/index.html 加入 js/calculator.js
+3. 在 tests/index.html 加入 js/calculator.js
 
-1. 使用瀏覽器打開 tests/index.html
+4. 使用瀏覽器打開 tests/index.html
