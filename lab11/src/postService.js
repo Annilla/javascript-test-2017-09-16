@@ -1,12 +1,12 @@
 var $ = require('jquery');
 
 function PostService() {
-    this.root = 'http://jsonplaceholder.typicode.com';
+    this.global = 'http://jsonplaceholder.typicode.com';
 }
 
 PostService.prototype.getPost = function (id) {
     return $.ajax({
-        url: root + '/posts/' + id,
+        url: global + '/posts/' + id,
         method: 'GET'
     });
 }

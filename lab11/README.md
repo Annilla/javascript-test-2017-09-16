@@ -28,7 +28,7 @@
         });
     });
     ```
-1. Stub jQuery 的 Ajax 功能
+2. Stub jQuery 的 Ajax 功能
 
     ``` js
     beforeEach(() => {
@@ -48,7 +48,7 @@
         $.ajax.restore();
     })
     ```
-1. 執行測試，觀察測試結果是否正確
+3. 執行測試，觀察測試結果是否正確
 
     ``` 
     npm test
